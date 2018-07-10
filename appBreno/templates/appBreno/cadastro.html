@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<body>
+
+<form method="POST">
+
+    {% csrf_token %}
+
+    {{ cadastro.as_p }}
+
+    <button type="submit">Salvar</button>
+
+</form>
+
+</body>
+</html>

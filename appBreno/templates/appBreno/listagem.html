@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Listagem</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+</head>
+<body>
+<div class='w3-container w3-blue w3-hover-border-color'>
+<h2>Listagem</h2>
+</div>
+
+<div class='w3-bar w3-black'>
+<a>Home</a>
+<a href="/">Cadastrar</a>
+<a href="">Listar</a>
+<a>Logout</a>
+</div>
+
+<table border='0' class='w3-table w3-striped'>
+<tr>
+<th>Nome</th>
+<th>CPF</th>
+<th>Email</th>
+<th>Telefone</th>
+<th>editar</th>
+<th>excluir</th>
+</tr>
+
+
+{% for e in lista %}
+<tr>
+    <td>{{ e.nome }}</td>
+    <td>{{ e.cpf }}</td>
+    <td>{{ e.email }}</td>
+    <td>{{ e.telefone }}</td>
+    <td><a href="{% url 'url_editar' e.id %}">editar</a></td>
+    <td><a href="{% url 'url_excluir' e.id %}">excluir</a></td>
+</tr>
+{% endfor %}
+
+
+
+</table>
+
+</body>
+</html>
