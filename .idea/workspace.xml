@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a95abd3-74ab-416f-a0b2-e15cf72a3914" name="Default" comment="teste">
-      <change afterPath="$PROJECT_DIR$/appBreno/templates/appBreno/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appBreno/templates/appBreno/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appBreno/templates/appBreno/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appBreno/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/appBreno/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appBreno/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/appBreno/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appBreno/templates/appBreno/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/appBreno/templates/appBreno/cadastro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appBreno/templates/appBreno/listagem.html" beforeDir="false" afterPath="$PROJECT_DIR$/appBreno/templates/appBreno/listagem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appBreno/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/appBreno/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="6a95abd3-74ab-416f-a0b2-e15cf72a3914" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +70,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appBreno/templates/appBreno/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="340">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -229,11 +216,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531265187885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Alterações feitas em equipe na sala de aula 10/07 sexta-feira.">
+      <created>1531271693432</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531271693432</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -267,7 +261,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="teste" />
+    <MESSAGE value="Alterações feitas em equipe na sala de aula 10/07 sexta-feira." />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterações feitas em equipe na sala de aula 10/07 sexta-feira." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CRUD/settings.py">
@@ -439,8 +434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appBreno/templates/appBreno/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="340">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
