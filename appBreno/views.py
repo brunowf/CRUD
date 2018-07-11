@@ -4,6 +4,14 @@ from .models import Tabela
 from .form import CadastroForm
 
 
+def login(request):
+    return render(request,'appBreno/login.html')
+
+
+def home(request):
+    return render(request,'appBreno/home.html')
+
+
 def cadastro(request):
     data={}
     form = CadastroForm(request.POST or None)

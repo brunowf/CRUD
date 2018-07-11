@@ -8,4 +8,10 @@ class Tabela(models.Model):
     telefone = models.CharField(max_length=11)
 
     def __str__(self):
-        return self.nome
+        return self.nome, self.cpf
+
+
+class TabelaSenha(models.Model):
+    senha = models.CharField(max_length=50, null=True,blank=True)
+    perguntinha = models.TextField(null=True, blank=True)
+    data = models.DateTimeField(auto_now_add=True)

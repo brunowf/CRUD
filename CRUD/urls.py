@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from appBreno.views import cadastro,listagem, editar, excluir
+from appBreno.views import cadastro,listagem, editar, excluir, home, login
 
 urlpatterns = [
+    path('', login, name='url_login'),
+    path('home/', home, name='url_home'),
     path('admin/', admin.site.urls),
-    path('', cadastro, name='url_cadastro'),
+    path('cadastro/', cadastro, name='url_cadastro'),
     path('editar/<int:pk>/', editar, name='url_editar'),
     path('excluir/<int:pk>', excluir, name='url_excluir'),
     path('listagem/', listagem, name='url_listagem'),
