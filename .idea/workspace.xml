@@ -70,8 +70,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appBreno/templates/appBreno/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -122,9 +122,9 @@
         <option value="$PROJECT_DIR$/appBreno/templates/appBreno/home.html" />
         <option value="$PROJECT_DIR$/appBreno/views.py" />
         <option value="$PROJECT_DIR$/CRUD/urls.py" />
-        <option value="$PROJECT_DIR$/appBreno/templates/appBreno/base.html" />
         <option value="$PROJECT_DIR$/appBreno/templates/appBreno/cadastro.html" />
         <option value="$PROJECT_DIR$/appBreno/templates/appBreno/login.html" />
+        <option value="$PROJECT_DIR$/appBreno/templates/appBreno/base.html" />
       </list>
     </option>
   </component>
@@ -227,8 +227,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -236,8 +235,8 @@
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3290938" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3290938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2489019" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.3290938" />
@@ -434,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appBreno/templates/appBreno/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
