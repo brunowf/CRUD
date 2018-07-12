@@ -8,13 +8,13 @@
 {% block content %}
 <div class="jumbotron page-header">
 </div>
-<form method="POST">
+<form method="POST"class="w3-container w3-text-teal">
 
     {% csrf_token %}
 
     {{ cadastro.as_p }}
 
-    <button type="submit">Salvar</button>
+    <button type="submit" class="w3-button w3-round-large w3-blue w3-hover-green">Salvar</button>
 
 </form>
 {% endblock %}
