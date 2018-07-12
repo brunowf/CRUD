@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Listagem</title>
+<title>CRUD</title>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+<style>
+.w3-lobster {
+    font-family: "Lobster", serif;
+}
+.w3-tangerine {
+  font-family: 'Tangerine', serif;
+}
+</style>
 </head>
 <body>
 
-<div class='w3-bar w3-black'>
-<a href="/home/">Home</a>
-<a href="/cadastro">Cadastrar</a>
-<a href="/listagem">Listar</a>
-<a>Logout</a>
+<div class='w3-bar w3-teal'>
+<a style="width:25%" class="w3-bar-item w3-button w3-lobster w3-mobile w3-disabled">Home</a>
+<a href="/cadastro" style="width:25%" class="w3-bar-item w3-button w3-lobster w3-mobile">Cadastrar</a>
+<a href="/listagem" style="width:25%" class="w3-bar-item w3-button w3-lobster w3-mobile">Listar</a>
+<a style="width:25%" class="w3-bar-item w3-button w3-lobster w3-mobile w3-disabled">Logout</a>
 </div>
 
-    <div class="container margin-top">
-
-    {% block content %}{% endblock %}
 </body>
-</html>
+</html>{% block content %}{% endblock %}

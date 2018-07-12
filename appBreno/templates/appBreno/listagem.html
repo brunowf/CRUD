@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
 <head>
 <title>Listagem</title>
@@ -15,10 +15,32 @@
 <a href="/cadastro/">Cadastrar</a>
 <a href="">Listar</a>
 <a>Logout</a>
+</div>-->
+<head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<style>
+.w3-lobster {
+    font-family: "Lobster", serif;
+}
+.w3-tangerine {
+  font-family: 'Tangerine', serif;
+  font-size:64px
+}
+</style>
+</head>
+<div class='w3-container w3-blue w3-hover-border-color'>
+<h2 class="w3-tangerine w3-text-black w3-center">Listagem</h2>
 </div>
+{% extends "./base.html" %}
 
-<table border='0' class='w3-table w3-striped'>
-<tr>
+{% block content %}
+
+<div class="w3-container">
+<table border='0' class='w3-table-all w3-card-4 w3-centered w3-hoverable'>
+<tr class="w3-teal">
 <th>Nome</th>
 <th>CPF</th>
 <th>Email</th>
@@ -34,14 +56,17 @@
     <td>{{ e.cpf }}</td>
     <td>{{ e.email }}</td>
     <td>{{ e.telefone }}</td>
-    <td><a href="{% url 'url_editar' e.id %}">editar</a></td>
-    <td><a href="{% url 'url_excluir' e.id %}">excluir</a></td>
+    <td><a href="{% url 'url_editar' e.id %}"><i class="fa fa-edit w3-xlarge"></i></a></td>
+    <td><a href="{% url 'url_excluir' e.id %}"><i class="fa fa-trash w3-xlarge"></i></a></td>
 </tr>
 {% endfor %}
 
 
 
 </table>
+</div>
 
+{% endblock %}
+<!--
 </body>
-</html>
+</html>-->
