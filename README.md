@@ -1,11 +1,10 @@
-# CRUD
-Situação de Aprendezagem
+# CRUD 
+# Situação de Aprendezado
 
-Sistema desenvolvido para cadastro de clientes usado o metodo CRUD, o sistema coleta o nome, CPF, e-mail e telefene.
+Sistema desenvolvido para cadastro de clientes usado o metodo CRUD, o sistema coleta o nome, CPF, e-mail e telefone.
 
-Localizado na pasta CRUD: https://github.com/brunowf/CRUD
 
-# Integrantes  Do Projeto
+# Integrantes do projeto
 
 Bruno  Folleto – lider do projeto.
 Guilherme Santos.
