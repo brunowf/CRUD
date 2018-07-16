@@ -6,7 +6,9 @@ Sistema desenvolvido para cadastro de clientes usado o metodo CRUD, o sistema co
 
 # Integrantes do projeto
 
-Bruno  Folleto – lider do projeto.
-Guilherme Santos.
-Márcio Hoffman.
+Bruno  Folleto – lider do projeto,
+Guilherme Santos,
+Márcio Hoffman,
 Rodrigo  Fárias.
+
+
